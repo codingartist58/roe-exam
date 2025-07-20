@@ -2,7 +2,7 @@ from playwright.sync_api import sync_playwright
 import re
 
 # Replace this with your actual list of URLs
-seeds = [91, 92, 93, 94, 95, 96, 97, 98, 99, 100]
+seeds = [4,5,6,7,8,9,10,11,12,13]
 urls = [f"https://sanand0.github.io/tdsdata/js_table/?seed={s}" for s in seeds]
 
 total_sum = 0
